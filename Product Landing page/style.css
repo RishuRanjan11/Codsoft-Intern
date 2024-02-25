@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+body,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navbar {
+
+    padding: 5px;
+}
+
+main {
+    padding: 40px;
+}
+
+#product {
+    height: 300px;
+    width: 550px;
+    display: inline-block;
+    text-align: center;
+}
+
+.benefits {
+    text-align: center;
+
+}
+
+.benefit-cards {
+    display: flex;
+
+}
+
+.benefit-cards article {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #d7d1d1;
+    text-align: center;
+
+}
+
+.benefit-cards article i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.benefit-cards article h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.benefit-cards article p {
+    font-size: 1.1em;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero img {
+    width: 400px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.testimonials {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .quote-carousel {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+  }
+  
+  .quote {
+    background-color: #d2d1d1c0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 400px; 
+  }
+  
+  .quote p {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .author {
+    font-size: 0.8em;
+    color: #505050;
+  }
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 20px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left img,
+.footer-left h2,
+.footer-left p {
+    margin-right: 10px;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-right p {
+    margin-right: 10px;
+
+
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social-logo {
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.logo-img {
+    width: 100px;
+    height: 100px;
+}
+
+#visionpro {
+    animation-name: zoomin;
+    animation-duration: 2s;
+    animation-delay: 1s;
+
+}
+
+.left,
+.social {
+    flex: 1;
+
+}
+
+article:hover {
+    animation: zoomin 2s;
+}
+
+@keyframes zoomin {
+    0% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
