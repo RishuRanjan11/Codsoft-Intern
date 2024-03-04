@@ -1,2 +1,2 @@
 # Portfolio Output
-![](portfolio-output.gif)
+![](output.gif)
