@@ -1,2 +1,2 @@
 # Product Landing Page Output
-![](output.gif)
+![](product-landing-output.gif)
